@@ -29,7 +29,7 @@ shortTitle: RubyGems registry
   $ gem --version
   ```
 
-- You must have bundler 1.6.4 or higher. To find your Bundler version:
+- You must have bundler 1.6.4 or higher. To find your Bundler version: 
 
   ```shell
   $ bundle --version
@@ -68,7 +68,7 @@ To install gems, you need to authenticate to {% data variables.product.prodname_
   - `TOKEN` with your personal access token.
   - `OWNER` with the name of the user or organization account that owns the repository containing your project.{% ifversion ghes %}
   - `REGISTRY-URL` with the URL for your instance's Rubygems registry. If your instance has subdomain isolation enabled, use `rubygems.HOSTNAME`. If your instance has subdomain isolation disabled, use `HOSTNAME/_registry/rubygems`. In either case, replace *HOSTNAME* with the hostname of your {% data variables.product.prodname_ghe_server %} instance.
-{% elsif ghae %}
+{% elsif ghae %} 
   - `REGISTRY-URL` with the URL for your instance's Rubygems registry, `rubygems.HOSTNAME`. Replace *HOSTNAME* with the hostname of {% data variables.product.product_location %}.
 {% endif %}
 
