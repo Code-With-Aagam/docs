@@ -13,6 +13,8 @@ topics:
   - Repositories
 children:
   - /about-repositories
+  - /best-practices-for-repositories
+  - /repository-limits
   - /creating-a-new-repository
   - /creating-a-repository-from-a-template
   - /creating-a-template-repository
@@ -26,4 +28,3 @@ children:
   - /restoring-a-deleted-repository
 shortTitle: Create & manage repositories
 ---
-
